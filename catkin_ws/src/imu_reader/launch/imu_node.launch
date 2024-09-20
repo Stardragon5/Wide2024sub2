@@ -1,0 +1,3 @@
+<launch>
+	<node name="imu_node" pkg="imu_reader" type="imu3.py" output="screen"/>
+</launch>

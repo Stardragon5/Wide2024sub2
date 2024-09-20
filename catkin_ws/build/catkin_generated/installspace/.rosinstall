@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robosub/IMU/catkin_ws/install/setup.sh

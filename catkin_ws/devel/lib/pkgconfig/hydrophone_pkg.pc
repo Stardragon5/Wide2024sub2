@@ -1,0 +1,8 @@
+prefix=/home/robosub/IMU/catkin_ws/devel
+
+Name: hydrophone_pkg
+Description: Description of hydrophone_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+hydrophone_pkg:imu_reader
+-DCATKIN_DEVEL_PREFIX=/home/robosub/IMU/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robosub/IMU/catkin_ws/install -G Unix Makefiles

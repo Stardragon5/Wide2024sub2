@@ -1,4 +1,4 @@
-prefix=/home/robosub/IMU/catkin_ws/install
+prefix=/home/robosub/Wide2024sub2/catkin_ws/install
 
 Name: hydrophone_pkg
 Description: Description of hydrophone_pkg

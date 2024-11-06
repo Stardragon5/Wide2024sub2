@@ -1,8 +1,8 @@
-# Install script for directory: /home/robosub/IMU/catkin_ws/src/imu_reader
+# Install script for directory: /home/robosub/Wide2024sub2/catkin_ws/src/imu_reader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robosub/IMU/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robosub/Wide2024sub2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robosub/IMU/catkin_ws/build/imu_reader/catkin_generated/installspace/imu_reader.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robosub/Wide2024sub2/catkin_ws/build/imu_reader/catkin_generated/installspace/imu_reader.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_reader/cmake" TYPE FILE FILES
-    "/home/robosub/IMU/catkin_ws/build/imu_reader/catkin_generated/installspace/imu_readerConfig.cmake"
-    "/home/robosub/IMU/catkin_ws/build/imu_reader/catkin_generated/installspace/imu_readerConfig-version.cmake"
+    "/home/robosub/Wide2024sub2/catkin_ws/build/imu_reader/catkin_generated/installspace/imu_readerConfig.cmake"
+    "/home/robosub/Wide2024sub2/catkin_ws/build/imu_reader/catkin_generated/installspace/imu_readerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_reader" TYPE FILE FILES "/home/robosub/IMU/catkin_ws/src/imu_reader/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_reader" TYPE FILE FILES "/home/robosub/Wide2024sub2/catkin_ws/src/imu_reader/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_reader" TYPE PROGRAM FILES "/home/robosub/IMU/catkin_ws/build/imu_reader/catkin_generated/installspace/imu.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_reader" TYPE PROGRAM FILES "/home/robosub/Wide2024sub2/catkin_ws/build/imu_reader/catkin_generated/installspace/imu.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_reader" TYPE PROGRAM FILES "/home/robosub/IMU/catkin_ws/build/imu_reader/catkin_generated/installspace/imu2.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_reader" TYPE PROGRAM FILES "/home/robosub/Wide2024sub2/catkin_ws/build/imu_reader/catkin_generated/installspace/imu2.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_reader" TYPE PROGRAM FILES "/home/robosub/Wide2024sub2/catkin_ws/build/imu_reader/catkin_generated/installspace/imu3.py")
 endif()
 

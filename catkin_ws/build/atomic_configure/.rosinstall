@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/robosub/IMU/catkin_ws/devel/setup.sh
+    local-name: /home/robosub/Wide2024sub2/catkin_ws/devel/setup.sh

@@ -7,9 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/robosub/IMU/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/robosub/IMU/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/robosub/IMU/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/robosub/IMU/catkin_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/robosub/IMU/catkin_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/robosub/IMU/catkin_ws/src:$ROS_PACKAGE_PATH"
+export PWD='/home/robosub/Wide2024sub2/catkin_ws/build'
+export ROS_PACKAGE_PATH='/home/robosub/IMU/catkin_ws/src:/home/robosub/Wide2024sub2/catkin_ws/src:/opt/ros/noetic/share'

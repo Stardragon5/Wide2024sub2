@@ -1,8 +1,8 @@
-# Install script for directory: /home/robosub/IMU/catkin_ws/src/hydrophone_pkg
+# Install script for directory: /home/robosub/Wide2024sub2/catkin_ws/src/hydrophone_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robosub/IMU/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robosub/Wide2024sub2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robosub/IMU/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/hydrophone_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robosub/Wide2024sub2/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/hydrophone_pkg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hydrophone_pkg/cmake" TYPE FILE FILES
-    "/home/robosub/IMU/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/hydrophone_pkgConfig.cmake"
-    "/home/robosub/IMU/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/hydrophone_pkgConfig-version.cmake"
+    "/home/robosub/Wide2024sub2/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/hydrophone_pkgConfig.cmake"
+    "/home/robosub/Wide2024sub2/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/hydrophone_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hydrophone_pkg" TYPE FILE FILES "/home/robosub/IMU/catkin_ws/src/hydrophone_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hydrophone_pkg" TYPE FILE FILES "/home/robosub/Wide2024sub2/catkin_ws/src/hydrophone_pkg/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hydrophone_pkg" TYPE PROGRAM FILES "/home/robosub/IMU/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/DepthSensor.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hydrophone_pkg" TYPE PROGRAM FILES "/home/robosub/Wide2024sub2/catkin_ws/build/hydrophone_pkg/catkin_generated/installspace/DepthSensor.py")
 endif()
 

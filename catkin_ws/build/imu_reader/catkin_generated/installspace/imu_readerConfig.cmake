@@ -67,14 +67,14 @@ set(imu_reader_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(imu_reader_SOURCE_PREFIX /home/robosub/IMU/catkin_ws/src/imu_reader)
-  set(imu_reader_DEVEL_PREFIX /home/robosub/IMU/catkin_ws/devel)
+  set(imu_reader_SOURCE_PREFIX /home/robosub/Wide2024sub2/catkin_ws/src/imu_reader)
+  set(imu_reader_DEVEL_PREFIX /home/robosub/Wide2024sub2/catkin_ws/devel)
   set(imu_reader_INSTALL_PREFIX "")
   set(imu_reader_PREFIX ${imu_reader_DEVEL_PREFIX})
 else()
   set(imu_reader_SOURCE_PREFIX "")
   set(imu_reader_DEVEL_PREFIX "")
-  set(imu_reader_INSTALL_PREFIX /home/robosub/IMU/catkin_ws/install)
+  set(imu_reader_INSTALL_PREFIX /home/robosub/Wide2024sub2/catkin_ws/install)
   set(imu_reader_PREFIX ${imu_reader_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robosub/IMU/catkin_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/robosub/Wide2024sub2/catkin_ws/install/lib;/home/robosub/Wide2024sub2/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

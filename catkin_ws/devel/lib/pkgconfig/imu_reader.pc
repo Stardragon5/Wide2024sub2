@@ -1,4 +1,4 @@
-prefix=/home/robosub/IMU/catkin_ws/devel
+prefix=/home/robosub/Wide2024sub2/catkin_ws/devel
 
 Name: imu_reader
 Description: Description of imu_reader

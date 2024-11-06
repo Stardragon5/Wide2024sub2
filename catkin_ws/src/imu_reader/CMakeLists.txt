@@ -160,7 +160,9 @@ include_directories(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
  catkin_install_python(PROGRAMS
- scripts/imu.py scripts/imu2.py
+ scripts/imu.py 
+ scripts/imu2.py
+ scripts/imu3.py
  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

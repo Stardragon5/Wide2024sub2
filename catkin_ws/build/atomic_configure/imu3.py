@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/robosub/Wide2024sub2/catkin_ws/src/hydrophone_pkg/scripts/DepthSensor.py'
+python_script = '/home/robosub/Wide2024sub2/catkin_ws/src/imu_reader/scripts/imu3.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,
